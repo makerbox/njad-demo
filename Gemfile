@@ -11,6 +11,7 @@ gem 'rails', '4.1.5'
 # Use pg for heroku
 gem 'pg'
 gem 'rails_12factor'
+ruby '2.1.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
