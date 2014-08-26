@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Needed for windows, because app was created in Linux
+gem 'tzinfo-data'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
