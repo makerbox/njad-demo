@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'demo/index'
   get 'demo/order'
   get 'demo/package'
+  get 'demo/packages'
   get 'demo/thankyou'
 
   get 'home/index'
