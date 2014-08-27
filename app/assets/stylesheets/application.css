@@ -36,6 +36,7 @@ body {
 
 a:hover, i:hover{
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .center{
