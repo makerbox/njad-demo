@@ -113,3 +113,7 @@ a:visited{
 .button:visited{
 	color: white;
 }
+
+.form-inputs{
+	font-size: 2em;
+}

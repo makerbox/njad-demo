@@ -27,7 +27,6 @@
 }
 
 .feature{
-	background-color: #FFCC99;
 	box-shadow: .5em .5em 2.5em -1em black;
 	-webkit-box-shadow: .5em .5em 2.5em -1em black;
 	width: 90%;
@@ -37,6 +36,38 @@
 	padding: .5em;
 	font-size: 1.7em;
 	display: inline-block;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #FFCC99;
+	}
+
+#pack1{
+	background-image: image-url('pack1.png');
+}
+#pack2{
+	background-image: image-url('pack2.png');
+}
+#pack3{
+	background-image: image-url('pack3.png');
+}
+#pack4{
+	background-image: image-url('pack4.png');
+}
+#pack5{
+	background-image: image-url('pack5.png');
+}
+#pack6{
+	background-image: image-url('pack6.png');
+}
+#pack7{
+	background-image: image-url('pack7.png');
+}
+#pack8{
+	background-image: image-url('pack8.png');
+}
+#pack9{
+	background-image: image-url('pack9.png');
 }
 
 #floatmenu{
@@ -57,8 +88,8 @@
 }
 .checkbutton:hover{
 	color: green;
-	background-color: grey;
-	border: none;
+	background-color: #967979;
+	border: 1px solid #967979;
 }
 
 .menuitem{
