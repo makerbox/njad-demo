@@ -8,6 +8,10 @@ gem 'rails', '4.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+gem 'simple_form'
+gem 'country_select'
+gem 'font-awesome-rails'
+
 # Use pg for heroku
 # gem 'pg'
 # gem 'rails_12factor'

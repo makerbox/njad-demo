@@ -1,7 +1,6 @@
-// Place all the styles related to the demo controller here.
+// Place all the styles related to the Subscriptions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 
 .demo{
 	background-color: #FFFFFF;
@@ -49,18 +48,6 @@
 	background-color: #FFFFFF;
 }
 
-.checkbutton{
-	border: 1px solid #FFFFFF;
-	border-radius: 1em;
-	padding: .5em;
-	margin: 1em;
-}
-.checkbutton:hover{
-	color: green;
-	background-color: grey;
-	border: none;
-}
-
 .menuitem{
 	color: white;
 	margin: .1em;
@@ -83,6 +70,32 @@
 	background: -ms-linear-gradient(top,  #e22938 1%,#e22938 50%,#cb2432 50%,#cb2432 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #e22938 1%,#e22938 50%,#cb2432 50%,#cb2432 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e22938', endColorstr='#cb2432',GradientType=0 ); /* IE6-8 */
+}
+
+.controls {
+	display: inline-block;
+
+}
+
+label {
+	display: inline-block;
+	margin: .5em;
+	margin-right: 2em;
+}
+
+.checkbox{
+	display: inline-block;
+	margin: .5em;
+}
+
+.checkbox *{
+	width: 2em;
+	height: 2em;
+}
+
+.subscription_investor, .subscription_user{
+	display: inline-block;
+	margin-right: 2em;
 }
 
 /* Smartphones (portrait and landscape) ----------- */

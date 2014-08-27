@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :subscriptions
+
   get 'demo/index'
   get 'demo/order'
   get 'demo/package'

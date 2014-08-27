@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require font-awesome
  */
 @font-face {
     font-family: 'bodonixtregular';
@@ -27,6 +28,14 @@
 
 body {
 	background-color: #83D5F7;
+}
+
+* {
+	font-family: 'bodonixtregular';
+}
+
+a:hover, i:hover{
+	cursor: pointer;
 }
 
 .center{
@@ -95,4 +104,8 @@ body {
 	opacity:.7;
 	color: white;
 	text-decoration: none;
-	}
+}
+
+.button:visited{
+	color: white;
+}
