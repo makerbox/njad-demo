@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'demo/package'
   get 'demo/packages'
   get 'demo/thankyou'
+  get 'demo/how'
+  get 'demo/contact'
+  get 'demo/help'
 
   get 'home/index'
   get 'home/facts'

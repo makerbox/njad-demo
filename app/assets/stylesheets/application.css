@@ -39,6 +39,9 @@ a:hover, i:hover{
 	text-decoration: none;
 }
 
+a:visited{
+	color: white;
+}
 .center{
 	text-align: center;
 }
