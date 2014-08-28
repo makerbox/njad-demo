@@ -43,31 +43,43 @@
 	}
 
 #pack1{
-	background-image: image-url('pack1.png');
+	background-image: image-url('pack10.png');
 }
 #pack2{
-	background-image: image-url('pack2.png');
+	background-image: image-url('pack13.png');
 }
 #pack3{
-	background-image: image-url('pack3.png');
-}
-#pack4{
-	background-image: image-url('pack4.png');
-}
-#pack5{
-	background-image: image-url('pack5.png');
-}
-#pack6{
 	background-image: image-url('pack6.png');
 }
+#pack4{
+	background-image: image-url('pack12.png');
+}
+#pack5{
+	background-image: image-url('pack11.png');
+}
+#pack6{
+	background-image: image-url('pack8.png');
+}
 #pack7{
-	background-image: image-url('pack7.png');
+	background-image: image-url('pack2.png');
 }
 #pack8{
-	background-image: image-url('pack8.png');
+	background-image: image-url('pack7.png');
 }
 #pack9{
 	background-image: image-url('pack9.png');
+}
+
+#exitbutton{
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	border-radius: 1em;
+	border: 1px solid white;
+	background-color: #83D5F7;
+	color: white;
+	padding: .5em;
+	z-index: 2;
 }
 
 #floatmenu{
@@ -77,7 +89,7 @@
 	width: 100%;
 	font-size: 2em;
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #83D5F7;
 }
 
 .checkbutton{

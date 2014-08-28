@@ -1,4 +1,7 @@
 <div class="demo">
+<a href="../home/index" id="exitbutton">
+	<i class="fa fa-times-circle"></i> exit demo
+</a>
 	<div class="row">
 		<div class="col-md-4 center">
 			<%= image_tag 'NJAD_logo_slogan500.png', alt: 'Not Just a Date logo', class: 'logo' %>
@@ -9,7 +12,7 @@
 			<div class="col-md-6 col-xs-8">
 			<div id="pack1" class="feature">
 				<span class="highlight">Custom package</span><hr>
-				Select your preferred location and interests.<i class="fa fa-check checkbutton"> book now</i>
+				Select your preferred location and interests.<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 			</div>
 		</div>
@@ -17,58 +20,95 @@
 	<div class="row">
 		<div class="col-md-3 col-xs-8">
 			<div id="pack2" class="feature">
-					<span class="highlight">Package 1</span><hr>
-					This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+					<span class="highlight">Sydney Middle East</span><hr>
+					<ul>
+						<li>Complete hamam experience with soap wash, exfoliation, massage</li>
+						<li>Banquet dinner in a Lebanese restaurant with belly dance show</li>
+					</ul>
+					<hr>
+				$280<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack3" class="feature">
-				<span class="highlight">Package 2</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">"Boudoir" photo shoot and print</span><hr>
+					<ul>
+						<li>3-course dinner in a cabaret with burlesque revue</li>
+						<li>OPTION: Night in a glamorous boutique hotel from $350 more</li>
+					</ul>
+					<hr>
+				$450<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack4" class="feature">
-				<span class="highlight">Package 3</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">Eat me drink me</span><hr>
+					<ul>
+						<li>Guided market tour (for instance fish market)</li>
+						<li>Cooking class</li>
+						<li>Tea appreciation</li>
+						<li>Degustation menu in a restaurant</li>
+					</ul>
+					<hr>
+				$500<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack5" class="feature">
-				<span class="highlight">Package 4</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">Urban explorer</span><hr>
+					<ul>
+						<li>Zoo</li>
+						<li>Cruise</li>
+						<li>Night on Cockatoo Island with special welcome hamper</li>
+					</ul>
+					<hr>
+				$160<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
+	</div>
+	<div class="row">
 		<div class="col-md-3 col-xs-8">
 			<div id="pack6" class="feature">
-				<span class="highlight">Package 5</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">Effort and comfort</span><hr>
+					<ul>
+						<li>Tree top safari</li>
+						<li>Japanese bath</li>
+					</ul>
+					<hr>
+				$280<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack7" class="feature">
-				<span class="highlight">Package 6</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">Wine tour</span><hr>
+					<ul>
+						<li>Get hammered</li>
+						<li>Roam vinyards</li>
+					</ul>
+					<hr>
+				$394<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack8" class="feature">
 				<span class="highlight">Package 7</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+					<ul>
+						<li>Excellent package</li>
+						<li>Fill in details</li>
+					</ul>
+					<hr>
+				$394<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 		<div class="col-md-3 col-xs-8">
 			<div id="pack9" class="feature">
-				<span class="highlight">Package 8</span><hr>
-				This package includes bla bla etc location category suited to elevator pitch etc bla bla lorem ipsum<hr>
-				$394<i class="fa fa-check checkbutton"> book now</i>
+				<span class="highlight">Seaside</span><hr>
+					<ul>
+						<li>Beach experience</li>
+						<li>Romantic beach stuff</li>
+					</ul>
+					<hr>
+				$394<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
 			</div>
 		</div>
 	</div>

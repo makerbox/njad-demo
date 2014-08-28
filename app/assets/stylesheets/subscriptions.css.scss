@@ -25,6 +25,18 @@
 	line-height: 1.5em;
 }
 
+#exitbutton{
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	border-radius: 1em;
+	border: 1px solid white;
+	background-color: #83D5F7;
+	color: white;
+	padding: .5em;
+	z-index: 2;
+}
+
 #floatmenu{
 	position: fixed;
 	bottom: 0;
@@ -32,7 +44,7 @@
 	width: 100%;
 	font-size: 2em;
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #83D5F7;
 }
 
 .menuitem{
