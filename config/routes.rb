@@ -1,15 +1,13 @@
 Rails.application.routes.draw do
+  resources :packages do
+    collection do
+    get 'splash'
+  end
+  end
+
   resources :subscriptions
 
-  get 'demo/index'
-  get 'demo/order'
-  get 'demo/package'
-  get 'demo/packages'
-  get 'demo/thankyou'
-  get 'demo/how'
-  get 'demo/contact'
-  get 'demo/help'
-
+  get 'demo/home'
   get 'home/index'
   get 'home/facts'
   get 'home/register'

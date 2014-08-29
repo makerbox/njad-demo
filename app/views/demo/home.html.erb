@@ -1,0 +1,42 @@
+<div class="demo">
+<a href="../home/index" id="exitbutton">
+  <i class="fa fa-times-circle"></i> exit demo
+</a>
+  <div class="row">
+    <div class="col-md-4 center">
+      <%= image_tag 'NJAD_logo_slogan500.png', alt: 'Not Just a Date logo', class: 'logo' %>
+    </div>
+    <div class="col-md-8">
+      <p><span class="highlight">Give them the date of their dreams.</span><br>Short pitch bla bla bla bla etc etc book today yes today.</p>
+      <p>A little bit of how it works info - packages to suit any occasion. Optional extras like babysitting and hire car etc.</p>
+      <div class="col-md-6 col-xs-8">
+      <div id="pack1" class="feature">
+        <span class="highlight">Custom package</span><hr>
+        Select your preferred location and interests.<%= link_to 'book now', new_subscription_path, class: 'fa fa-check checkbutton' %>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <% @packages.each do |package| %>
+      <div class="col-md-3 col-xs-8">
+        <div style="background-image: url(../assets/<%= package.image %>)" class="feature">
+            <span class="highlight"><%= package.title %></span><hr>
+            <ul>
+              <%= package.description.html_safe %>
+            </ul>
+            <hr>
+          $<%= package.price %>
+          <%= link_to 'book now', package_path(package), class: 'fa fa-check checkbutton' %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="row">
+  <p>Subscribe to get the latest offers and updates
+    <%= link_to 'Subscribe', new_subscription_path, class: "button" %>
+    </p>
+  </div>
+<%= render 'float' %>
+</div>
